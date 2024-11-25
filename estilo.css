@@ -1,19 +1,23 @@
 body {
-    background-color:gray;
-  
+
+    background-color: gray;
+
 }
 
 
 
 .contenedor {
+
     display: flex;
     justify-content: center;
     gap: 20px;
     align-items: center;
     margin-top: 125px;
+
 }
 
 .precios {
+
     background-color: white;
     width: 300px;
     text-align: center;
@@ -21,44 +25,98 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
-    transition: transform 0.3s ease;
-    overflow: hidden;
-    position: relative;
+    margin: 0;
+
 }
 
 
 
+.etrellas {
 
-.iam {
-    color: #ffaa00;
-    font-size: 50px;
+    color: orange;
+
 }
+
 
 .amenazzy {
+
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+
 }
 
-.anuel {
-    color: brown;
+.anuel1 {
+
+    color: black;
     font-size: 24px;
     transition: color 0.3s ease;
+
+}
+.anuel2 {
+
+    color: black;
+    font-size: 24px;
+    transition: color 0.3s ease;
+
+}
+.anuel3 {
+
+    color: black;
+    font-size: 24px;
+    transition: color 0.3s ease;
+
 }
 
-.precios:hover .anuel {
-    color: #ffaa00;
+.anuel1:hover {
+    color: rgb(72, 253, 0);
+   
 }
+.anuel2:hover {
+    color: rgb(255, 0, 0);
+   
+}
+.anuel3:hover {
+    color: rgb(255, 132, 0);
+   
+}
+ 
 
 
 
 .banda {
-    background-color: brown;
-    height: 10px;
+
+    background-color: rgb(72, 253, 0);
+    height: 40px;
     width: 100%;
-    transition: background-color 0.3s ease;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
 }
 
-.precios:hover .banda {
-    background-color: #ffaa00;
+
+
+.ban2 {
+    background-color: rgb(255, 0, 0);
+}
+
+.ban3 {
+    background-color: rgb(255, 132, 0);
+    
+}
+
+.letra {
+
+    margin: auto;
+    font-size: 20px;
+    width: 80%;
+
+}
+
+
+.imagen {
+
+    width: 150px;
+    height: 150px;
+
 }
