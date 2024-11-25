@@ -1,0 +1,64 @@
+body {
+    background-color:gray;
+  
+}
+
+
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 125px;
+}
+
+.precios {
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+
+.iam {
+    color: #ffaa00;
+    font-size: 50px;
+}
+
+.amenazzy {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.anuel {
+    color: brown;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.precios:hover .anuel {
+    color: #ffaa00;
+}
+
+
+
+.banda {
+    background-color: brown;
+    height: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.precios:hover .banda {
+    background-color: #ffaa00;
+}
